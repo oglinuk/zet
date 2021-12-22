@@ -5,4 +5,5 @@ TIL about `man operator` when looking for the manual page that references
 a nice concise page of all the operators in C and their associativity.
 
 Tags:
+
 	#c #man
