@@ -1,0 +1,1 @@
+# Personal Zettlekasten of `oglinuk`
