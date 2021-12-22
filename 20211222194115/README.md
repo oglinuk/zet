@@ -1,9 +1,9 @@
 # RGB Feature Scaling in C
 
-Feature scaling is used to bring all values into a range between 0 and 1.
-The equation is `normalized = a + (a - min(x)/(max(x) - min(x)))`. Since
-RGB values deal with a min of `0` and a max of `255` this makes the
-equation `normalized = a / 255`.
+Feature scaling is used to scale values to a range between 0 and 1. The
+equation is `n = a + (a - min(x)/(max(x) - min(x)))`. Since RGB values
+deal with a min of `0` and a max of `255` this makes the equation
+`normalized = a / 255`.
 
 The context for this is because my `dasteroids` project uses the allegro
 game libraries, and the function I use to create an `ALLEGRO_COLOR` is
