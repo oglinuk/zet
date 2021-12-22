@@ -4,9 +4,9 @@ Humans are amazing at a lot of things, but remembering things is not *usually* o
 
 Related:
 
-	* <https://luhmann.surge.sh/communicating-with-slip-boxes>
-	* <https://github.com/rwxrob>
-	* <https://github.com/rwxrob/cmd-zet>
+* Niklas Luhmann - <https://luhmann.surge.sh/communicating-with-slip-boxes>
+* rwxrob - <https://github.com/rwxrob>
+* cmd-zet - <https://github.com/rwxrob/cmd-zet>
 
 Tags:
 
