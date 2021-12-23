@@ -165,6 +165,7 @@ Related:
 * <https://pkg.go.dev/fmt#Fprintf>
 * <https://docs.docker.com/engine/reference/builder/>
 * <https://docs.docker.com/compose/compose-file/compose-file-v3/>
+* <https://github.com/oglinuk/simple-tcp-server>
 
 Tags:
 
