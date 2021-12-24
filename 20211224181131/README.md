@@ -111,6 +111,8 @@ The fourth, and last thing happening is removing local permissions via
 
 Related:
 
+* Solution
+	<https://github.com/oglinuk/dliberation-circuit>
 * Liberation Circuit
 	<https://github.com/linleyh/liberation-circuit>
 * Learning Lab: Liberation Circuit
