@@ -315,7 +315,7 @@ main()
 Related:
 
 * Reflections on Trusting Trust (paper)
-	<://web.archive.org/web/20191203212005/https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
+	<https://web.archive.org/web/20191203212005/https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
 * Implementation of Ken Thompsons Quine in C source code
 	<https://github.com/oglinuk/ken-thompsons-quine-in-c>
 * Reflections on Trusting Trust (computerphile video explanation)
