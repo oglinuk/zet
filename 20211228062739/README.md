@@ -25,9 +25,33 @@ that, when compiled and executed, will produce as output an exact copy of
 its source. If you have never done this, I urge you to try it on your
 own. The discovery of how to do it is a revelation that far surpasses any
 benefit obtained by being told how to do it. The part about 'shortest'
-was just an incentive to demonstrate skill and determine a winner." I was
-going to include an example self-reproducing program in Go, but I am
-still learning, so will have to update (TODO).
+was just an incentive to demonstrate skill and determine a winner." Below
+is an example implementation of a self-reproducing program in Go.
+
+```Go
+package main
+
+import "fmt"
+
+// Go is easier since it has [raw string literals](https://go.dev/ref/spec#String_literals),
+// the work-around to not being able to use '`' is the same as '"'.
+func main() {
+	s := `package main
+
+import "fmt"
+
+// Go is easier since it has [raw string literals](https://go.dev/ref/spec#String_literals),
+// the work-around to not being able to use '%c' is the same as '"'.
+
+func main() {
+	s := %c%s%c
+	fmt.Printf(s, rune(96), rune(96), s, rune(96))
+}
+`
+	fmt.Printf(s, rune(96), rune(96), s, rune(96))
+}
+```
+
 
 Stage II describes how compilers written in their own languages (like
 the C compiler) are "chicken and egg" problems. This problem introduces
