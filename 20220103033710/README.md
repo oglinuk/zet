@@ -1,6 +1,6 @@
 # Autodidact Guides
 
-"What resources should I use to learn <insert thing to learn here>?" is a
+"What resources should I use to learn 'insert thing to learn here'?" is a
 question any individual starting out will run into. Unfornately, this is
 a difficult question to answer, as it runs into many issues. One issue is
 finding resources that are up-to-date. An example of this, is how `//`
