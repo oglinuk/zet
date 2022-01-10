@@ -54,8 +54,7 @@ WORLD!
 ```
 
 We can also use this small utility in combination with another like
-`find`, which might look something like `find /usr/include std* |
-./toupper`.
+`find`. This might look like `find /usr/include std* | ./toupper`.
 
 Another great documented instance of the Unix philosophy is by one of the
 core people behind the open source movement, Eric S. Raymond. He lists 12
@@ -88,4 +87,4 @@ Related:
 	<https://archive.org/details/bstj57-6-1899/page/n3/mode/2up>
 * `man bash` and search "Parameter Expansion"
 * Basics of the Unix Philosophy by Eric S. Raymond
-	<http://www.catb.org/~esr/writings/taoup/html/ch01s06.html>
+	<https://web.archive.org/web/20030425025631/http://www.catb.org/~esr/writings/taoup/html/ch01s06.html>
