@@ -57,7 +57,7 @@ We can also use this small utility in combination with another like
 `find`, which might look something like `find /usr/include std* |
 ./toupper`.
 
-Another great documented instance of the Unix philosophy is by of the
+Another great documented instance of the Unix philosophy is by one of the
 core people behind the open source movement, Eric S. Raymond. He lists 12
 rules that he states were "implied not by what these elders said but by
 what they did and the example Unix itself set."
