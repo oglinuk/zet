@@ -47,11 +47,55 @@ the middle mouse button. Keep in mind that they use different buffers
 though, so what you copy with `ctrl + alt + c` will not be able to be
 pasted via the middle mouse click.
 
-The first commands introduced are `date`, `cal`, `df`, and `free`. The
-`date` command prints the current datetime (`Mon 10 Jan 2022 09:48:59 AM
-PST`). The `cal` command prints a calendar (the current month by
-default). The `df` command prints disk space usage. The `free` command
-prints memory usage.
+The first commands introduced are `date`, `cal`, `df`, and `free`.
+
+The `date` command prints the current datetime (`Mon 10 Jan 2022 09:48:59 AM
+PST`).
+
+The `cal` command prints a calendar (the current month by default).
+
+```
+    January 2022      
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+30 31                 
+```
+
+The `df` command prints disk space usage.
+
+```
+Filesystem           1K-blocks      Used Available Use% Mounted on
+overlay              114337956  93153308  15333512  86% /
+tmpfs                    65536         0     65536   0% /dev
+tmpfs                  4010568         0   4010568   0% /sys/fs/cgroup
+shm                      65536         0     65536   0% /dev/shm
+/dev/sda2            114337956  93153308  15333512  86% /etc/resolv.conf
+/dev/sda2            114337956  93153308  15333512  86% /etc/hostname
+/dev/sda2            114337956  93153308  15333512  86% /etc/hosts
+tmpfs                  4010568         0   4010568   0% /proc/asound
+tmpfs                  4010568         0   4010568   0% /proc/acpi
+tmpfs                    65536         0     65536   0% /proc/kcore
+tmpfs                    65536         0     65536   0% /proc/keys
+tmpfs                    65536         0     65536   0% /proc/timer_list
+tmpfs                    65536         0     65536   0% /proc/sched_debug
+tmpfs                  4010568         0   4010568   0% /proc/scsi
+tmpfs                  4010568         0   4010568   0% /sys/firmware
+```
+
+The `free` command prints memory usage.
+
+```
+              total        used        free      shared  buff/cache available
+Mem:        8021140     1351760     3456164      322484     3213216 	6071500
+Swap:       2097148         900     2096248
+```
+
+It is important to note that I used a docker container, running the
+`bash:5.1` docker image, to run the above commands.
 
 To end a terminal session, you can either enter `exit`, or you can enter
 `ctrl + d`.
