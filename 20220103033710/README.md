@@ -11,14 +11,13 @@ book like "Head First C", and when you purchase a book (typically) it
 only comes in one format.
 
 To resolves issues like the ones above, I am starting a new series of
-books called "Audidact Guides", the first being "Autodidacts Guide to C".
-These books will be written entirely in markdown (commonmark
-specification), and will be kept in a structure that allows it to be
-transformed into various formats (like physical) easily. All content will
-be under Creative Commons Attribution 4.0 International, and all
-associated code (if code is included) will be under Apache-2.0. There
-will be no charge, except for in a case like ordering a physical copy, in
-which only the amount to cover the cost would be required.
+books called "Audidact Guides". These books will be written entirely in
+markdown (commonmark specification), and will be kept in a structure that
+allows it to be transformed into various formats (like physical) easily.
+All content will be under Creative Commons Attribution 4.0 International,
+and all associated code (if code is included) will be under Apache-2.0.
+There will be no charge, except for in a case like ordering a physical
+copy, in which only the amount to cover the cost would be required.
 
 The idea is that individuals from all ranges of experience use/contribute
 to these books so that there is a consistent source of information. This
@@ -27,6 +26,23 @@ not monopolized and remains accessible to everyone.
 
 Since I am in-experienced in a lot of things, and this is a community
 effort, I need to find some experienced people.
+
+Book List (so far):
+
+* Autodidacts Guide to BASH
+* Autodidacts Guide to Go
+* Autodidacts Guide to Python3
+* Autodidacts Guide to JavaScript
+* Autodidacts Guide to C
+* Autodidacts Guide to Git
+* Autodidacts Guide to Docker
+* Autodidacts Guide to Docker Compose
+* Autodidacts Guide to Kind
+* Autodidacts Guide to Kubernetes
+* Autodidacts Guide to Vim
+* Autodidacts Guide to Tmux
+* Autodidacts Guide to GitHub
+* Autodidacts Guide to Zet
 
 Related:
 
