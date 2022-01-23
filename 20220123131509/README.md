@@ -14,6 +14,16 @@ sudo apt install gh
 
 Follow whatever option you want for configuration.
 
+Don't forget to set your default editor to `vim` via `gh config set
+editor vim` as it uses nano by default...
+
+To create an issue, navigate to the desired local repository, then run
+`gh issue create --title "Some title" --body "Some body"`.
+
+To create a pull request, run `gh pr create`. To see open pull requests,
+run `gh pr list`. To merge a branch (since you can't review your own PR),
+run `gh pr merge`.
+
 Related:
 
 * Installing `gh` on Linux and BSD
