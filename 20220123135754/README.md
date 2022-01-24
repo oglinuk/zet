@@ -73,7 +73,7 @@ r.Get("/", getBooks)
 r.Get("/{id}", getBookById)
 r.Get("/ping", getHeartbeat)
 r.Get("/create", createBook)
-.Get("/static/*", func(w http.ResponseWriter, r *http.Request) {
+r.Get("/static/*", func(w http.ResponseWriter, r *http.Request) {
 	root := http.Dir("static")
 	fsrvr := http.StripPrefix("/static/", http.FileServer(root))
 	fsrvr.ServeHTTP(w, r)
@@ -121,8 +121,21 @@ assert.NotNil(t, actualNilBodyDecoderErr)
 assert.Equal(t, io.ErrUnexpectedEOF, actualNilBodyDecoderErr)
 ```
 
-Now to create `handlers_test.go` ...
+The current size of `handlers.go` is `206` lines, so the better option is
+refactoring into separate handler files (`create.go`, `retrieve.go`,
+`update.go`, and `delete.go`).
 
+Before we create any of those files or their test files, we should
+apply DRY. Currently only two places are calling `json.Marshal`, but that
+will increase drastically when authentication is added. To account for
+this we will create another utility function called `encodeJSON`.
+
+The test will be similar to `TestNilInputsDecodeJSON`, except we are only
+passing an `interface{}`, and getting `[]byte`/`error` back. The
+implementation of `encodeJSON` is similar to `decodeJSON`, except for the
+use of `json.Marshal` instead.
+
+More to come ...
 
 Related:
 
