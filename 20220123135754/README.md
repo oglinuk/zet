@@ -64,6 +64,22 @@ r.Get("/" getBooks)// func(w http.ResponseWriter, r *http.Request) {
 
 Time to do the rest ...
 
+The finished result of refactoring all handler logic out of
+`cmd/ui/main.go` looks like the following.
+
+```Go
+r.Post("/", createBook)
+r.Get("/", getBooks)
+r.Get("/{id}", getBookById)
+r.Get("/ping", getHeartbeat)
+r.Get("/create", createBook)
+.Get("/static/*", func(w http.ResponseWriter, r *http.Request) {
+	root := http.Dir("static")
+	fsrvr := http.StripPrefix("/static/", http.FileServer(root))
+	fsrvr.ServeHTTP(w, r)
+})
+```
+
 Related:
 
 * restful-go
