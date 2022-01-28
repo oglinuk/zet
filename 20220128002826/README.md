@@ -64,7 +64,9 @@ Related:
 	<https://freedoom.github.io>
 * DOOM Source Ports
 	<https://doomwiki.org/wiki/Source_port>
+* Open Source Games
+	<https://github.com/oglinuk/zet/tree/master/20211223152349>
 
 Tags:
 
-	#doom #freedoom #chocolate-doom #c #autoconf #make
+	#doom #freedoom #chocolate-doom #c #autoconf #make #open-source
