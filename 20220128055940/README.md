@@ -38,8 +38,8 @@ Related:
 	<https://datatracker.ietf.org/doc/html/rfc5735#section-4>
 * RFC 2606 (section 2)
 	<https://datatracker.ietf.org/doc/html/rfc2606#section-2>
-	Subnet calculator (very bottom has a table of subnets)
-* <https://www.calculator.net/ip-subnet-calculator.html>
+* Subnet calculator (very bottom has a table of subnets)
+	<https://www.calculator.net/ip-subnet-calculator.html>
 
 Tags:
 
