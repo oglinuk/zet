@@ -12,6 +12,9 @@ no particular order).
 1. <https://github.com/dharmit009/zet>
 1. <https://github.com/fkautz/zet>
 1. <https://github.com/julienbosco/zet>
+1. <https://github.com/Lethalz/LethalZet>
+1. <https://github.com/AugustasV/zet>
+1. <https://github.com/LeATeP/zet-notes>
 
 Related:
 
