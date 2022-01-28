@@ -9,8 +9,8 @@ means that a web server running on `127.0.0.1:9001` does not conflict
 with a web server running on `127.0.0.2:9001`, or `127.0.1.1:9001`, or
 `127.1.1.1:9001`, and so on.
 
-I encourage you to test out what I said about with the simple web server
-Go snippet below.
+I encourage you to test out what I said above with the simple Go web
+server below.
 
 ```Go
 package main
