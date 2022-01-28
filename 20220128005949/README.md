@@ -39,3 +39,9 @@ Related:
 	<https://github.com/id-software/quake>
 * DarkPlaces source port
 	<https://icculus.org/twilight/darkplaces/readme.html>
+* LibreQuake
+	<https://github.com/misslav/librequake>
+
+Tags:
+
+	#quake #darkplaces #c #make #librequake
