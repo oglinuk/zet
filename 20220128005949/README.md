@@ -41,7 +41,9 @@ Related:
 	<https://icculus.org/twilight/darkplaces/readme.html>
 * LibreQuake
 	<https://github.com/misslav/librequake>
+* Open Source Games
+	<https://github.com/oglinuk/zet/tree/master/20211223152349>
 
 Tags:
 
-	#quake #darkplaces #c #make #librequake
+	#quake #darkplaces #c #make #librequake #open-source
