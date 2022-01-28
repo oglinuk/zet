@@ -22,7 +22,7 @@ all blogs (some from large enterprises like Atlassian, AWS, and
 Microsoft) of developers using ngrok.* I have included those blogs in the
 related section below.
 
-***Success in a software context is mass adoption and discussion.***
+***Success in an IT context is mass adoption and discussion.***
 
 Related:
 
