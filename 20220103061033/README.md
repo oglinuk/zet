@@ -30,6 +30,7 @@ them is up to you to decide. This list is in no particular order.
 * Daniel Stenberg
 * Niklas Luhmann
 * Aaron Swartz
+* Fabrice Bellard
 
 Tags:
 
