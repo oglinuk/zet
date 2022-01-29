@@ -15,6 +15,7 @@ no particular order).
 1. <https://github.com/Lethalz/LethalZet>
 1. <https://github.com/AugustasV/zet>
 1. <https://github.com/LeATeP/zet-notes>
+1. <https://github.com/ZDGharst/zettels>
 
 Related:
 
