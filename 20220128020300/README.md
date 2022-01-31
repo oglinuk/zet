@@ -17,6 +17,7 @@ no particular order).
 1. <https://github.com/LeATeP/zet-notes>
 1. <https://github.com/ZDGharst/zettels>
 1. <https://github.com/rossim2i2/zet>
+1. <https://github.com/deyloop/notebox>
 
 Related:
 
