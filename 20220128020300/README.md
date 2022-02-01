@@ -18,6 +18,7 @@ no particular order).
 1. <https://github.com/ZDGharst/zettels>
 1. <https://github.com/rossim2i2/zet>
 1. <https://github.com/deyloop/notebox>
+1. <https://github.com/SimonWoodtli/zet>
 
 Related:
 
@@ -26,4 +27,4 @@ Related:
 
 Tags:
 
-	#zettelkasten #cmd-zet #registry
+	#zettelkasten #cmd-zet #registry #rwx-community #rwxers #rwx-method
