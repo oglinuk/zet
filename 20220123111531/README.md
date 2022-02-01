@@ -57,6 +57,10 @@ Related:
 	<https://www.docker.com/>
 * Docker Compose
 	<https://docs.docker.com/compose/>
+* 4 Mantras for Designing Scalable APIs
+	<https://nordicapis.com/4-mantras-for-designing-scalable-apis>
+* Enterprise Integration Using REST
+	<https://www.martinfowler.com/articiles/enterpriseREST.html>
 
 Tags:
 
