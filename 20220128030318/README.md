@@ -1,4 +1,4 @@
-# Q: How do you keep up-to-date in IT?
+# KUTD: How do you keep up-to-date in IT?
 
 Information Technology (IT) is a wonderful, expansive, and endlessly
 morphing industry. The problem is there is *so much to keep up with*. So
@@ -9,6 +9,7 @@ surprised how many companies actually maintain blogs.
 
 1. go <https://go.dev/blog/>
 1. linux <https://lwn.net/>
+1. vim <https://www.vim.org/news/news.php>
 1. curl <https://daniel.haxx.se/blog/>
 1. ipfs <https://blog.ipfs.io/>
 1. cncf <https://www.cncf.io/blog/>
@@ -29,12 +30,12 @@ surprised how many companies actually maintain blogs.
 1. western digital <https://blog.westerndigital.com/>
 1. ibm <https://developer.ibm.com/blogs/>
 1. redhat <https://www.redhat.com/en/all-blogs>
-1. oracle <https://blogs.oracle.com/developers/>
+1. oracle developers <https://blogs.oracle.com/developers/>
 1. netflix <https://netflixtechblog.com/>
 1. spoiify developers <https://engineering.atspotify.com/>
-1. google <https://developers.googleblog.com/>
-1. amazon <https://developer.amazon.com/blogs/index.html>
-1. microsoft <https://devblogs.microsoft.com/>
+1. google developers <https://developers.googleblog.com/>
+1. amazon developers <https://developer.amazon.com/blogs/index.html>
+1. microsoft developers <https://devblogs.microsoft.com/>
 1. apple <https://developer.apple.com/news/>
 1. alibabacloud <https://www.alibabacloud.com/blog>
 1. amd <https://developer.amd.com/?page_id=5185>
@@ -52,25 +53,25 @@ surprised how many companies actually maintain blogs.
 1. discord <https://discord.com/blog>
 1. linux foundation <https://www.linuxfoundation.org/blog/>
 1. stackoverflow <https://stackoverflow.blog/>
-1. facebook <https://developers.facebook.com/blog/>
+1. facebook developers <https://developers.facebook.com/blog/>
 1. nokia bell labs <https://www.bell-labs.com/events-news/press-releases/>
-1. at&t <https://developer.att.com/blog>
-1. blackberry <https://devblog.blackberry.com/en>
+1. at&t developers <https://developer.att.com/blog>
+1. blackberry developers <https://devblog.blackberry.com/en>
 1. hackerearth <https://www.hackerearth.com/blog/>
 1. linkedin developers <https://engineering.linkedin.com/blog>
 1. spacex <https://www.spacex.com/updates/>
-1. internet archive <https://blog.archive.org/developers/>
-1. atlassian <https://blog.developer.atlassian.com/>
-1. hubspot <https://developers.hubspot.com/blog>
-1. yahoo <https://developer.yahoo.com/blogs/>
+1. internet archive developers <https://blog.archive.org/developers/>
+1. atlassian developers <https://blog.developer.atlassian.com/>
+1. hubspot developers <https://developers.hubspot.com/blog>
+1. yahoo developers <https://developer.yahoo.com/blogs/>
 1. bing <https://blogs.bing.com/Engineering-Blog>
 1. zoom <https://blog.zoom.us/>
 1. auth0 <https://auth0.com/blog/>
-1. soundcloud <https://developers.soundcloud.com/>
-1. dolby <https://developer.dolby.com/blog/>
+1. soundcloud developers <https://developers.soundcloud.com/blog/>
+1. dolby developers <https://developer.dolby.com/blog/>
 1. booking <https://blog.booking.com/>
-1. mongodb <https://www.mongodb.com/blog/channel/developer>
-1. zendesk <https://developerblog.zendesk.com/>
+1. mongodb developers <https://www.mongodb.com/blog/channel/developer>
+1. zendesk developers <https://developerblog.zendesk.com/>
 1. medium developers <https://medium.engineering/>
 1. rust <https://blog.rust-lang.org/>
 1. python <https://www.python.org/blogs/>
@@ -136,7 +137,49 @@ surprised how many companies actually maintain blogs.
 1. wordpress <https://wordpress.com/blog/>
 1. wordpress developers <https://wpdeveloper.com/blog/>
 1. squarespace <https://www.squarespace.com/blog>
+1. here <https://360.here.com/>
+1. here developers <https://developer.here.com/blog>
+1. mapbox <https://www.mapbox.com/blog/>
+1. mapbox developers <https://blog.mapbox.com/>
+1. maptiler <https://www.maptiler.com/news/>
+1. mapquest <https://mapquestforbusinessblog.com/>
+1. moovit <https://moovit.com/blog/>
+1. moovit developers <https://moovit.com/developers/>
+1. tomtom <https://www.tomtom.com/blog/>
+1. tomtom developers <https://developer.tomtom.com/blog>
+1. wikimapia <http://blog.wikimapia.org/>
+1. mapquest developers <https://developer.mapquest.com/devblog/>
+1. yandex <https://yandex.com/blog/all>
+1. google ai <https://ai.googleblog.com/>
+1. jetbrains <https://blog.jetbrains.com/>
+1. vscode <https://code.visualstudio.com/blogs/>
+1. nordic semiconductor <https://blog.nordicsemi.com/getconnected>
+1. nordic semiconductor developers <https://devzone.nordicsemi.com/>
+1. nordic semiconductor apis <https:/nordicapis.com/blog>
+1. integra sources <https://www.integrasources.com/blog/>
+1. oauth.net <https://oauth.net/articles/>
+1. grpc <https://grpc.io/blog/>
+1. layer5 <https://layer5.io/blog>
+1. meshery <https://meshery.io/blog>
+1. istio <https://istio.io/latest/blog/>
+1. khronos group <https://www.khronos.org/blog/>
+1. microsoft developers <https://devblogs.microsoft.com/>
+1. microsoft ai <https://blogs.microsoft.com/ai/>
+1. google ai <https://ai.googleblog.com/>
+1. facebook ai <https://ai.facebook.com/blog>
+1. ibm ai <https://www.ibm.com/blogs/research/category/ai/>
+1. intel ai <https://builders.intel.com/ai/blog>
+1. berkley ai <https://bair.berkeley.edu/blog/>
+1. mit ai <https://mimo.mit.edu/blog/>
+1. stanford ai <https://ai.stanford.edu/blog/>
+1. distil ai <https://distil.ai/blog/>
+1. distill ai <https://distill.pub/>
+1. esr ai <https://ai.myesr.org/>
+1. rstudio ai <https://blogs.rstudio.com/ai/>
+1. baidu ai <http://research.baidu.com/Blog>
+1. ai trends <https://www.aitrends.com/>
+1. udoo <https://www.udoo.org/udoo-blog/>
 
 Tags:
 
-	#blogs #company-blog #developer-blogs #keep-up-to-date #registry
+	#keep-up-to-date #kutd #blogs #company-blog #developer-blogs #registry
