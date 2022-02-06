@@ -86,61 +86,52 @@ places references the uppercase structs, like in `handlers.go`, but this
 was easily handled with vi commands like `:%s/BooksResp/booksResp/g`.
 
 `cmd/ui` is missing all test files, so I will start with
-`cmd/ui/utils_test.go` since it's the smaller of the two.
-
-The first thing I will test is `nil` inputs, which looks like the
-following.
-
-```Go
-// TestNilInputsDecodeJSON ensures that decodeJSON handles nil inputs
-func TestNilInputsDecodeJSON(t *testing.T) {
-	badReq := &http.Response{}
-	expectedNilInterfaceErr := fmt.Errorf("decodeJSON::v is nil")
-
-	actualNilInterfaceErr := decodeJSON(nil, badReq.Body)
-	assert.NotNil(t, actualNilInterfaceErr)
-	assert.Equal(t, expectedNilInterfaceErr, actualNilInterfaceErr)
-
-	badInterface := map[string]string{}
-	expectedNilBodyErr := fmt.Errorf("decodeJSON::body is nil")
-
-	actualNilBodyErr := decodeJSON(badInterface, nil)
-	assert.NotNil(t, actualNilBodyErr)
-	assert.Equal(t, expectedNilBodyErr, actualNilBodyErr)
-}
-```
-
-The part to test is `json.NewDecoder(body).Decode(&v)`, which looks like
-the following.
-
-```Go
-badReq.Body = io.NopCloser(bytes.NewBufferString(`"{'test': 'bad}"`))
-
-actualNilBodyDecoderErr := decodeJSON(badInterface, badReq.Body)
-assert.NotNil(t, actualNilBodyDecoderErr)
-assert.Equal(t, io.ErrUnexpectedEOF, actualNilBodyDecoderErr)
-```
+`cmd/ui/utils_test.go` since it will be small.
 
 The current size of `handlers.go` is `206` lines, so the better option is
-refactoring into separate handler files (`create.go`, `retrieve.go`,
-`update.go`, and `delete.go`).
+refactoring into separate handler files. The `handlers.go` file has been
+split up into `create.go`, `retrieve.go`, and `update.go`. Since we are
+using `fetch` with JavaScript to handle the `DELETE` requests, there is
+no need for a handler. This may change if `fetch` ends up being the
+better option to handle `PUT` requests over a hidden HTML tag. That will
+be a decision for the next code review.
 
-Before we create any of those files or their test files, we should
-apply DRY. Currently only two places are calling `json.Marshal`, but that
-will increase drastically when authentication is added. To account for
-this we will create another utility function called `encodeJSON`.
+I've decided to put off creating tests for the minimal web UI (except for
+`utils_test.go`, only because it is not the main focus of this project,
+and I need to learn end-to-end testing still. This will be a good
+opportunity to learn about `httptest.Server`, as it is "... an HTTP
+server listening on a system-chosen port on the local loopback interface,
+for use in end-to-end HTTP tests."
 
-The test will be similar to `TestNilInputsDecodeJSON`, except we are only
-passing an `interface{}`, and getting `[]byte`/`error` back. The
-implementation of `encodeJSON` is similar to `decodeJSON`, except for the
-use of `json.Marshal` instead.
+The last thing to do for `cmd/ui/main.go` is to refactor `localIP` and
+`dockerIP` to use environment variables. In addition, a request to
+`dockerIP` is made. If the request fails the `currentIP` is set to
+`localIP` values, otherwise it is set to `dockerIP`.
 
-More to come ...
+Originally I made a note to change the hardcoded `backend` variable in
+`cmd/ui/static/js/index.js`. This I think is actually fine since the
+minimal web UI should always be on the same network. Notifying the user
+that the request failed is easily done with an `alert` in the `catch`
+statement of the fetch call.
+
+Like the hardcoded `backend` variable, I also think that hardcoding the
+`<title>RESTful Go</title>` tag in `cmd/ui/templates/header.html` is
+fine. This perhaps should be looked at again when the logic for template
+execution is refactored into it's own function.
+
+The final thing to do for the `cmd/ui` portion of the 1642914462
+code-review is to reference a local `favicon.svg` file in
+`cmd/ui/templates/header.html`. I am not familiar with inlining svg's
+yet, but referenced a resource below.
 
 Related:
 
 * restful-go
 	<https://github.com/oglinuk/restful-go>
+* `httptest.Server`
+	<https://pkg.go.dev/net/http/httptest#Server>
+* Inlining svg
+	<https://yoksel.github.io/url-encoder/>
 
 Tags:
 
