@@ -6,6 +6,7 @@ Ever wonder how malware get's embedded into files?
 multiple different file types."
 
 Related:
+
 	* Polyglot Files: A Hacker's Best Friend
 	<https://vickieli.dev/hacking/polyglot/>
 	* Hacking group using Polyglot images to hide malvertising attacks
