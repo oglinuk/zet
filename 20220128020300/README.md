@@ -21,6 +21,9 @@ no particular order).
 1. <https://github.com/SimonWoodtli/zet>
 1. <https://github.com/mrbooshehri/zet>
 1. <https://github.com/kittywritescode/zet>
+1. <https://github.com/abteilung6/zettelkasten>
+1. <https://github.com/piyushsatti/zettelkasten>
+1. <https://github.com/thebigbone/zet>
 
 Related:
 
