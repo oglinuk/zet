@@ -1,9 +1,9 @@
 # How to Access Private Fields in Go Structs
 
 When changing my Go labs to a TDD approach, I came into an obstacle when
-it came to creating a `sync.WaitGroup`. Part of my approach has been to
+it came to the `sync.WaitGroup` example. Part of my approach has been to
 write tests against the standard library APIs themselves, so I wanted to
-test each method. The `Add` method seemed the easiest as it is
+test each method. The `Add` method seemed the easiest, as it is
 essentially just checking the counter after adding to it. The problem is
 the `WaitGroup` count field is private (unexported) and does not expose
 any way of accessing it.
@@ -52,3 +52,7 @@ Related:
 	<https://cs.opensource.google/go/go/+/go1.17.7:src/sync/waitgroup.go;l=20>
 	* Package `reflect`
 	<https://pkg.go.dev/reflect>
+
+Tags:
+
+	#go #sync #reflect #private-fields
