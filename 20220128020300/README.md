@@ -25,6 +25,7 @@ no particular order).
 1. <https://github.com/piyushsatti/zettelkasten>
 1. <https://github.com/thebigbone/zet>
 1. <https://github.com/14w3u7/zet>
+1. <https://github.com/erikmortimer/zettel>
 
 Related:
 
