@@ -1,7 +1,7 @@
 # Zettelkasten Registry
 
-This is a list of `cmd-zet` based zettelkastens that I keep an eye on (in
-no particular order).
+This is a list of zettelkastens that I keep an eye on (in no particular
+order).
 
 1. <https://github.com/rwxrob/zet>
 1. <https://github.com/bruno-yamada/zet>
@@ -26,6 +26,8 @@ no particular order).
 1. <https://github.com/thebigbone/zet>
 1. <https://github.com/14w3u7/zet>
 1. <https://github.com/erikmortimer/zettel>
+1. <https://github.com/mattdood/zets>
+1. <https://github.com/ritchielrez/zets>
 
 Related:
 
