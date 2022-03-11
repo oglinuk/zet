@@ -28,6 +28,8 @@ order).
 1. <https://github.com/erikmortimer/zettel>
 1. <https://github.com/mattdood/zets>
 1. <https://github.com/ritchielrez/zets>
+1. <https://github.com/jtoguri/zet>
+1. <https://github.com/sharklightning/zet>
 
 Related:
 
