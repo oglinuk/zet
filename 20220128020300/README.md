@@ -30,6 +30,9 @@ order).
 1. <https://github.com/ritchielrez/zets>
 1. <https://github.com/jtoguri/zet>
 1. <https://github.com/sharklightning/zet>
+1. <https://github.com/samjtro/zets>
+1. <https://github.com/intelagense/zet>
+1. <https://github.com/danielmichaels/zet>
 
 Related:
 
